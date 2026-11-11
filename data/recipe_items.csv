@@ -1,0 +1,100 @@
+flavor,format,cup_size,item_code,qty
+Matcha,Iced,12 oz,ING-01,4
+Matcha,Iced,12 oz,ING-03,5.4
+Matcha,Iced,12 oz,ING-04,40
+Matcha,Iced,12 oz,ING-05,8
+Matcha,Iced,12 oz,ING-06,50
+Matcha,Iced,12 oz,PKG-01,1
+Matcha,Iced,12 oz,PKG-05,1
+Matcha,Iced,12 oz,PKG-06,1
+Matcha,Iced,12 oz,PKG-07,1
+Matcha,Iced,12 oz,PKG-04,1
+Matcha,Iced,12 oz,PKG-08,1
+Matcha,Iced,16 oz,ING-01,5.33333333
+Matcha,Iced,16 oz,ING-03,7.2
+Matcha,Iced,16 oz,ING-04,53.33333333
+Matcha,Iced,16 oz,ING-05,10.66666667
+Matcha,Iced,16 oz,ING-06,50
+Matcha,Iced,16 oz,PKG-02,1
+Matcha,Iced,16 oz,PKG-05,1
+Matcha,Iced,16 oz,PKG-06,1
+Matcha,Iced,16 oz,PKG-07,1
+Matcha,Iced,16 oz,PKG-04,1
+Matcha,Iced,16 oz,PKG-08,1
+Hojicha,Iced,12 oz,ING-02,4.5
+Hojicha,Iced,12 oz,ING-03,5.4
+Hojicha,Iced,12 oz,ING-04,40
+Hojicha,Iced,12 oz,ING-05,9
+Hojicha,Iced,12 oz,ING-06,50
+Hojicha,Iced,12 oz,PKG-01,1
+Hojicha,Iced,12 oz,PKG-05,1
+Hojicha,Iced,12 oz,PKG-06,1
+Hojicha,Iced,12 oz,PKG-07,1
+Hojicha,Iced,12 oz,PKG-04,1
+Hojicha,Iced,12 oz,PKG-08,1
+White Chocolate Matcha,Iced,12 oz,ING-01,4
+White Chocolate Matcha,Iced,12 oz,ING-03,5.4
+White Chocolate Matcha,Iced,12 oz,ING-04,40
+White Chocolate Matcha,Iced,12 oz,ING-06,50
+White Chocolate Matcha,Iced,12 oz,ING-09,25
+White Chocolate Matcha,Iced,12 oz,PKG-01,1
+White Chocolate Matcha,Iced,12 oz,PKG-05,1
+White Chocolate Matcha,Iced,12 oz,PKG-06,1
+White Chocolate Matcha,Iced,12 oz,PKG-07,1
+White Chocolate Matcha,Iced,12 oz,PKG-04,1
+White Chocolate Matcha,Iced,12 oz,PKG-08,1
+White Chocolate Matcha,Iced,16 oz,ING-01,5.33333333
+White Chocolate Matcha,Iced,16 oz,ING-03,7.2
+White Chocolate Matcha,Iced,16 oz,ING-04,53.33333333
+White Chocolate Matcha,Iced,16 oz,ING-06,50
+White Chocolate Matcha,Iced,16 oz,ING-09,33.33333333
+White Chocolate Matcha,Iced,16 oz,PKG-02,1
+White Chocolate Matcha,Iced,16 oz,PKG-05,1
+White Chocolate Matcha,Iced,16 oz,PKG-06,1
+White Chocolate Matcha,Iced,16 oz,PKG-07,1
+White Chocolate Matcha,Iced,16 oz,PKG-04,1
+White Chocolate Matcha,Iced,16 oz,PKG-08,1
+Strawberry Matcha,Iced,12 oz,ING-01,4
+Strawberry Matcha,Iced,12 oz,ING-03,5.4
+Strawberry Matcha,Iced,12 oz,ING-04,40
+Strawberry Matcha,Iced,12 oz,ING-06,50
+Strawberry Matcha,Iced,12 oz,ING-08,25
+Strawberry Matcha,Iced,12 oz,PKG-01,1
+Strawberry Matcha,Iced,12 oz,PKG-05,1
+Strawberry Matcha,Iced,12 oz,PKG-06,1
+Strawberry Matcha,Iced,12 oz,PKG-07,1
+Strawberry Matcha,Iced,12 oz,PKG-04,1
+Strawberry Matcha,Iced,12 oz,PKG-08,1
+Lemonade,Iced,16 oz,ING-11,35
+Lemonade,Iced,16 oz,ING-04,250
+Lemonade,Iced,16 oz,ING-06,50
+Lemonade,Iced,16 oz,ING-12,10
+Lemonade,Iced,16 oz,PKG-03,1
+Lemonade,Iced,16 oz,PKG-05,1
+Lemonade,Iced,16 oz,PKG-06,1
+Lemonade,Iced,16 oz,PKG-07,1
+Lemonade,Iced,16 oz,PKG-04,1
+Lemonade,Iced,16 oz,PKG-08,1
+White Chocolate Matcha,Bottled,350 ml,ING-01,5.75532551
+White Chocolate Matcha,Bottled,350 ml,ING-03,7.76968944
+White Chocolate Matcha,Bottled,350 ml,ING-04,57.55325512
+White Chocolate Matcha,Bottled,350 ml,ING-09,35.97078445
+White Chocolate Matcha,Bottled,350 ml,PKG-09,1
+Strawberry Matcha,Bottled,350 ml,ING-01,5.75532551
+Strawberry Matcha,Bottled,350 ml,ING-03,7.76968944
+Strawberry Matcha,Bottled,350 ml,ING-04,57.55325512
+Strawberry Matcha,Bottled,350 ml,ING-08,35.97078445
+Strawberry Matcha,Bottled,350 ml,PKG-09,1
+Hojicha,Iced,16 oz,ING-02,6
+Hojicha,Iced,16 oz,ING-03,7.2
+Hojicha,Iced,16 oz,ING-04,53.33333333
+Hojicha,Iced,16 oz,ING-05,12
+Hojicha,Iced,16 oz,ING-06,50
+Hojicha,Iced,16 oz,PKG-02,1
+Hojicha,Iced,16 oz,PKG-05,1
+Hojicha,Iced,16 oz,PKG-06,1
+Hojicha,Iced,16 oz,PKG-07,1
+Hojicha,Iced,16 oz,PKG-04,1
+Hojicha,Iced,16 oz,PKG-08,1
+
+
