@@ -24,7 +24,7 @@ Maxcha is my small home-based matcha drink business. I took my own sales, recipe
 | Q4 | Break-even? | Average profit ₱80.23 per cup, operating expenses ₱2,064, so break-even is about 25.7 cups. I sold 50. | Treat about 26 cups as the cost-cover target. |
 | Q5 | What drives the cost of my best seller? | In Matcha Iced 12 oz (₱53.70 per cup), matcha powder is 56% of ingredient cost. | Compare matcha powder suppliers first. |
 | Q6 | How does demand change over time? | First 4 weeks sold 36 of 50 cups. Low weeks match weeks I was busy. | Keep a steady selling routine. |
-| Q9 | Profitable after all expenses? | Revenue ₱7,062, net profit ₱1,947.50, margin 27.6%. Equipment is 71% of operating expenses. | Track margin again once equipment spending stops. |
+| Q7 | Profitable after all expenses? | Revenue ₱7,062, net profit ₱1,947.50, margin 27.6%. Equipment is 71% of operating expenses. | Track margin again once equipment spending stops. |
 
 Full write-ups with the numbers are in [findings.md](findings.md).
 
@@ -66,7 +66,7 @@ Full write-ups with the numbers are in [findings.md](findings.md).
 ## Files
 
 ```text
-sql/maxcha_queries.sql      views, checks and all queries (Q1–Q9)
+sql/maxcha_queries.sql      views, checks and all queries (Q1–Q7)
 data/recipe_items.csv       recipe quantities per drink (97 rows)
 dashboard/                  dashboard screenshot and PDF
 findings.md                 findings and decisions for each question

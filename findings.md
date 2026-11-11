@@ -36,7 +36,7 @@
 
 **So I should:** keep a steady selling routine (regular posts and promos), since demand looks tied to how much I promote and when I'm available.
 
-## Q9 – Is Maxcha really profitable after all expenses?
+## Q7 – Is Maxcha really profitable after all expenses?
 **Finding:** Revenue ₱7,062, gross profit ₱4,011.50, operating expenses ₱2,064, net profit ₱1,947.50, net margin 27.6%. Equipment is 71% of operating expenses; without it the margin would be about 48%. Ingredient and packaging restocks (₱6,504) are excluded from expenses because they are already counted in COGS.
 
 **So I should:** not panic about the 27.6% margin, since equipment is mostly one-time. I should track margin again once equipment spending stops.

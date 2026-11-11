@@ -1,7 +1,7 @@
 -- =====================================================================
 -- MAXCHA: unit economics and pricing analysis (PostgreSQL)
 -- Database: maxcha
--- Run order: views first, then the checks, then Q1-Q9, then the extras.
+-- Run order: views first, then the checks, then Q1-Q7, then the extras.
 -- Tip: in DBeaver, press Alt+X to run the whole script, or click inside
 -- one query and press Ctrl+Enter to run just that query.
 -- =====================================================================
@@ -163,7 +163,7 @@ ORDER BY week_start;
 
 
 -- =====================================================================
--- Q9. What is my net profit to date after operating expenses?
+-- Q7. What is my net profit to date after operating expenses?
 -- Expected: revenue 7,062 | gross profit 4,011.50 | operating expenses 2,064
 --           net profit 1,947.50 | net margin 27.6%
 -- =====================================================================
