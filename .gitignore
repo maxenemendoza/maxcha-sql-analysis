@@ -1,2 +1,7 @@
 data/raw/
 *.pbix
+.env
+report/output/
+__pycache__/
+.pytest_cache/
+CLAUDE_CODE_TASK_weekly_report.md
