@@ -37,7 +37,45 @@ Full write-ups with the numbers are in [findings.md](findings.md).
 5. **Checked my work.** Totals in the database (38 orders, 50 cups, ₱7,062 revenue) match my original Excel workbook, and COGS differs by ₱24.45 (under 1%).
 6. **Built a Power BI dashboard** connected directly to the PostgreSQL views, with DAX measures for operating expenses, net profit and net margin.
 
-**Tools:** PostgreSQL 18, DBeaver, Power BI Desktop.
+**Tools:** PostgreSQL 18, DBeaver, Power BI Desktop, Python (pandas, matplotlib).
+
+## Automated weekly report
+
+`report/weekly_report.py` builds my weekly sales report straight from PostgreSQL, replacing the numbers I used to update by hand in a spreadsheet. It checks the data first, then writes a Markdown report with a short plain-language summary, two charts and an Excel table to `report/output/`. Each week is compared with the week before, and the report includes year-to-date net profit after operating expenses.
+
+**Set up (once):**
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env    # then put your PostgreSQL password in .env
+```
+
+**Run:**
+
+```bash
+python report/weekly_report.py                    # latest finished week with orders
+python report/weekly_report.py --week 2026-10-28  # the Monday–Sunday week containing this date
+python report/weekly_report.py --all              # one report for every week to date
+pytest                                            # run the tests (no database needed)
+```
+
+Before writing anything, the script stops with a clear message if any order has a missing price or cost, if a sold drink has no recipe, or if all-time totals no longer match the validated 38 orders, 50 cups and ₱7,062 revenue. To update or turn off that last check, change `EXPECTED_TOTALS` at the top of the script. Customer data is never loaded, and the output folder is gitignored.
+
+**Sample report (week of 2 Nov 2026):**
+
+> - Cups sold fell from 5 to 2 (-60.0%).
+> - Gross profit fell from ₱381.85 to ₱258.88 (-32.2%). Gross margin was 59.1%.
+> - Best earner: White Chocolate Matcha Bottled 350 ml, ₱135.83 gross profit from 1 cup.
+> - Most cups were 350 ml (100.0%), and 0.0% of cups had an add-on.
+> - Year to date: ₱7,062.00 revenue and ₱1,947.50 net profit (27.6% net margin) after ₱2,064.00 in operating expenses.
+
+| Year to date | Amount |
+|---|---:|
+| Revenue | ₱7,062.00 |
+| Gross profit | ₱4,011.50 |
+| Operating expenses | ₱2,064.00 |
+| Net profit | ₱1,947.50 |
+| Net margin | 27.6% |
 
 ## Data and definitions
 
@@ -70,6 +108,10 @@ sql/maxcha_queries.sql      views, checks and all queries (Q1–Q7)
 data/recipe_items.csv       recipe quantities per drink (97 rows)
 dashboard/                  dashboard screenshot and PDF
 findings.md                 findings and decisions for each question
+report/weekly_report.py     automated weekly report (Python)
+tests/test_metrics.py       tests for the weekly report math
+requirements.txt            Python packages
+.env.example                template for database settings (copy to .env)
 ```
 
 **Privacy:** raw order data is not included because it contains customer information. Customers appear only as anonymized IDs.
